@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>photoshop-portfolio</title>
+    <link rel="stylesheet" href="./common.css" />
+    <link rel="stylesheet" href="./ps-portfolio.css" />
+    <script src="jquery-1.12.3.js" type="text/javascript"></script>
+  </head>
+
+  <!-- model -->
+  <div id="bread">
+    <div class="bread-body">
+      <img src="images/bread.png" alt="bread" title="bread" />
+      <p>설명</p>
+      <button class="bread-close">close</button>
+    </div>
+  </div>
+
+  <div id="ratatouille">
+    <div class="ratatouille-body">
+      <img src="images/ratatouille.png" alt="ratatouille" title="ratatouille" />
+      <p>설명</p>
+      <button class="ratatouille-close">close</button>
+    </div>
+  </div>
+
+  <body>
+    <div id="ps-portfolio__wrap">
+      <!-- header -->
+      <header class="header">
+        <div>
+          <nav class="header__nav">
+            <ul class="header__nav__ul">
+              <li><a href="ps-portfolio.html">자율</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <!-- section -->
+      <section class="section">
+        <div>
+          <img
+            class="bread-img"
+            src="images/bread.png"
+            alt="bread"
+            title="bread"
+          />
+          <img
+            class="ratatouille-img"
+            src="images/ratatouille.png"
+            alt="ratatouille"
+            title="ratatouille"
+          />
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer class="footer">
+        <div class="copyright">
+          이 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로
+          제작되었습니다.<br />
+          © 2023 Gu, Bo-Gyeong<br />
+        </div>
+      </footer>
+    </div>
+    <script src="ps-portfolio.js" defer="defer" type="text/javascript"></script>
+  </body>
+</html>
