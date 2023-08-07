@@ -60,7 +60,7 @@
 
 .section__h2 {
   position: absolute;
-  left: 550px;
+  left: 40%;
   top: 140px;
   font-weight: 600;
   font-size: 70px;
@@ -68,6 +68,11 @@
   line-height: 0.7;
   letter-spacing: -1px;
   text-shadow: 5px 5px 5px rgb(100, 100, 100);
+}
+
+img {
+  float: left;
+  padding-left: 70px;
 }
 
 .photoshop {
