@@ -60,7 +60,7 @@
 
 .section__h2 {
   position: absolute;
-  left: 40%;
+  left: 50%;
   top: 140px;
   font-weight: 600;
   font-size: 70px;
@@ -79,7 +79,7 @@
 
 .section__nav li {
   display: block;
-  width: 359px;
+  width: 360px;
   height: 40px;
   float: left;
   padding: 5px 0px;
