@@ -60,7 +60,7 @@
 
 .section__h2 {
   position: absolute;
-  left: 580px;
+  left: 44%;
   top: 140px;
   font-weight: 600;
   font-size: 70px;
@@ -74,14 +74,14 @@
   width: 180px;
   height: 170px;
   padding-top: 250px;
-  padding-left: 35px;
+  padding-left: 55px;
 }
 
 .icon2 img {
   width: 180px;
   height: 170px;
   padding-top: 100px;
-  padding-left: 35px;
+  padding-left: 55px;
 }
 
 /* footer */
